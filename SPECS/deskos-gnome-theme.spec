@@ -2,7 +2,7 @@
 
 Name:           deskos-gnome-theme
 Version:        0.1
-Release:        1
+Release:        1%{?dist}
 Summary:        DeskOS default theme for GTK 3 and GNOME Shell
 
 Group:          User Interface/Desktops
