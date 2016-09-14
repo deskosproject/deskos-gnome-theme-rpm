@@ -1,0 +1,29 @@
+diff -Naur arc-theme-20160331.orig/common/index.theme arc-theme-20160331/common/index.theme
+--- arc-theme-20160331.orig/common/index.theme	2016-03-31 14:55:11.000000000 -0500
++++ arc-theme-20160331/common/index.theme	2016-05-08 18:49:26.015718105 -0500
+@@ -1,12 +1,12 @@
+ [Desktop Entry]
+ Type=X-GNOME-Metatheme
+-Name=Arc
+-Comment=A flat theme with transparent elements
++Name=DeskOS
++Comment=DeskOS default theme
+ Encoding=UTF-8
+ 
+ [X-GNOME-Metatheme]
+-GtkTheme=Arc
+-MetacityTheme=Arc
++GtkTheme=DeskOS
++MetacityTheme=DeskOS
+ IconTheme=gnome
+ CursorTheme=DMZ-Black
+ ButtonLayout=menu:minimize,maximize,close
+diff -Naur arc-theme-20160331.orig/common/Makefile.am arc-theme-20160331/common/Makefile.am
+--- arc-theme-20160331.orig/common/Makefile.am	2016-03-31 14:55:11.000000000 -0500
++++ arc-theme-20160331/common/Makefile.am	2016-05-08 18:52:55.873792323 -0500
+@@ -1,4 +1,4 @@
+-themedir        = $(datadir)/themes/Arc
++themedir        = $(datadir)/themes/DeskOS
+ themedarkerdir  = $(datadir)/themes/Arc-Darker
+ themedarkdir    = $(datadir)/themes/Arc-Dark
+ 
