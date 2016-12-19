@@ -1,7 +1,7 @@
-%global arc_theme_version 20160331
+%global arc_theme_version 20161119
 
 Name:           deskos-gnome-theme
-Version:        0.1
+Version:        0.2
 Release:        1%{?dist}
 Summary:        DeskOS default theme for GTK 3 and GNOME Shell
 
@@ -51,5 +51,8 @@ find ${RPM_BUILD_ROOT} -name "*.sh" -exec chmod -x {} \;
 %{_datadir}/themes/DeskOS/index.theme
 
 %changelog
+* Fri Dec 16 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.2-1
+- Updated to release 20161119
+
 * Thu May 12 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.1-1
 - Initial release
